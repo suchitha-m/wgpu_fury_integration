@@ -1,0 +1,15 @@
+prerequisite : Python should be installed
+
+install fury:
+pip install fury
+
+install wgpu-Py:
+pip install wgpu
+
+create an environment 
+python -m venv fury-wgpu-env
+
+activate the environment
+source fury-wgpu-env/bin/activate
+
+lets start creating the basic Rendering Loop
